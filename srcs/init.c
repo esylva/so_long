@@ -17,7 +17,7 @@ void	ft_name_check(char *carta)
 	char	*point;
 
 	point = ft_strrchr(carta, '.');
-	if (!point || ft_strncmp(point, ".ber", 4) || ft_strlen(point) != 4)
+	if (!point || ft_strncmp(point, ".ber", 4) || ft_strlen(point) != 3)
 	{
 		printf("%s\n", strerror(EINVAL));
 		exit(EINVAL);
