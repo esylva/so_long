@@ -34,7 +34,7 @@ int	main(int argc, char **argv)
 		}
 	}
 }
-//требуется доработка в проверке имени файла (сравнивается только 4 числа)
+
 void	ft_so_long(char *carta, t_map *map)
 {
 	int		fd;
